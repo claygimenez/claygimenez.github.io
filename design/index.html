@@ -1,0 +1,14 @@
+---
+layout: default
+title: design
+---
+
+<section class="projects">
+  {% for post in site.categories.design %}
+
+  <div class="project">
+    <img src="{{ post.image }}" />
+  </div>
+
+  {% endfor %}
+</section>

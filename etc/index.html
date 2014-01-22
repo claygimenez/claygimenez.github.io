@@ -1,0 +1,14 @@
+---
+layout: default
+title: fun
+---
+
+<section class="projects">
+  {% for post in site.categories.etc %}
+
+  <div class="project">
+    <img src="{{ post.image }}" />
+  </div>
+
+  {% endfor %}
+</section>
