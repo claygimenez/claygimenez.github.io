@@ -1,8 +1,12 @@
 ---
 layout: default
+title: Mary Schmidt
 ---
-<section class="about">
-  <p>Fluffy lioness</p>
-  <p>Business mech-e loves to code</p>
-  <p>Coffee is life-blood</p>
-</section>
+
+<div id="container">
+  <div id="index-projects">
+    {% for post in site.posts %}
+    <div class="index-project" style="background-image: url('{{ post.image }}');" onclick="window.location.href='{{ post.url }}';"></div>
+    {% endfor %}
+  </div>
+</div>

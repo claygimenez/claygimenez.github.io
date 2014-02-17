@@ -1,96 +1,66 @@
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue', arial, sans-seriff;
-  font-size: 14px;
-  background: white;
-  color: #ececec;
-  padding: 0;
-  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
 }
 
-a {
-  color: #ccc;
-  text-decoration: none;
+h1, h2 {
+  font-weight: 200;
 }
 
-a:hover {
-  color: #ececec;
-  text-decoration: none;
+p {
+  letter-spacing: 0.02em;
 }
 
-#main {
-  width: 100%;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.4);
-}
-
-header {
-  padding: 0 10px;
-  overflow: hidden;
-}
-
-h1 {
-  margin: 0;
-}
-
-#navigation {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 100%;
-  width: 300px;
-  display: inline-block;
-  background-color: #54bbff;
-  color: white;
+#header {
   text-align: center;
+  margin: 32px 0 32px 0;
 }
 
-#navigation a {
-  color: white;
-  display: block;
-}
-
-#navigation #about {
-  margin-top: 50px;
-}
-
-#navigation #about #name {
-  font-size: 28px;
-  margin-bottom: 25px;
-}
-
-#navigation #about #twitter {
-  font-size: 18px;
-  margin-bottom: 25px;
-}
-
-.about, section.projects {
-  margin-left: 300px;
-  text-align: center;
+#header a {
+  text-decoration: none;
   font-size: 32px;
-  color: #54bbff;
+  line-height: 36px;
+  color: #333;
+  font-weight: 200;
 }
 
-.content {
-  padding: 10px;
+.container {
+  width: 1000px;
+  margin: 0 auto;
 }
 
-section.projects {
-  margin: 50px 50px 50px 350px;
-  text-align: left;
+.index-project {
+  cursor: pointer;
+  width: 306px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  display: inline-block;
+  padding: 0.35em;
+  border: 1px solid #e6e6e6;
+  height: 175px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-section.projects .project {
+.index-project:nth-child(3) {
+  margin-right: 0;
 }
 
-section.projects .project img {
-  width: 350px;
-  height: 350px;
+.index-project img {
+  width: 100%;
+  margin: 0;
 }
 
-footer {
-  position: absolute;
-  width: 300px;
-  bottom: 50px;
-  font-size: 14px;
+.main-image {
+  width: 100%;
+  max-height: 500px;
   text-align: center;
+}
+
+.main-image img {
+  max-height: 500px;
 }

@@ -2,6 +2,12 @@
 layout: default
 ---
 
-<img src="{{ page.image }}" />
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="main-image">
+  <img src={{ page.image }}>
+</div>
 
+<div class="post">
 {{ content }}
+</div>
