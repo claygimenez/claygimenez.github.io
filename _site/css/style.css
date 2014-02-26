@@ -50,6 +50,10 @@ p {
   margin-right: 0;
 }
 
+.index-project:nth-child(6) {
+  margin-right: 0;
+}
+
 .index-project img {
   width: 100%;
   margin: 0;
