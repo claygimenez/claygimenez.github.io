@@ -3,10 +3,13 @@ layout: default
 title: Mary Schmidt
 ---
 
-<div id="container">
+<div class="container">
   <div id="index-projects">
     {% for post in site.posts %}
-    <div class="index-project" style="background-image: url('{{ post.image }}');" onclick="window.location.href='{{ post.url }}';"></div>
+    <div class="index-project" onclick="window.location.href='{{ post.url }}';">
+      <div class="index-project-img" style="background-image: url('{{ post.image }}');">
+      </div>
+    </div>
     {% endfor %}
   </div>
 </div>
