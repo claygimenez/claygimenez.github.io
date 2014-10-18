@@ -73,7 +73,6 @@ p {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0;
 }
 
 #header a {
@@ -148,32 +147,38 @@ p {
   width: 10em;
 }
 
+#featured-projects {
+  margin-top: 136px;
+}
+
 .container.featured {
-  margin: 40px auto;
+  margin: 30px auto;
   max-width: 68.5em;
   vertical-align: middle;
   width: 100%;
   box-sizing: border-box;
-  border-top: 6px solid #e6e6e6;
+  border-top: 5px solid #e6e6e6;
   padding: 20px;
   background-color: #fff;
 }
 
 .container.museum {
-  margin: 0px auto;
+  border-top: 5px solid #e6e6e6;
+  margin: 90px auto;
   max-width: 68.5em;
   vertical-align: middle;
   width: 100%;
   box-sizing: border-box;
-  padding: 0 0 40px 0;
+  padding: 0;
+  background-color: #fff;
 }
 
 .container.project {
-  margin: 40px auto;
+  margin: 136px auto 90px auto;
   max-width: 68em;
   vertical-align: middle;
   width: 100%;
-  border-top: 6px solid #e6e6e6;
+  border-top: 5px solid #e6e6e6;
   background-color: #fff;
   padding: 50px;
   box-sizing: border-box;
@@ -184,7 +189,7 @@ p {
 }
 
 .index-project {
-  background-color: #fff;
+  background-color: #f3f3f3;
   cursor: pointer;
   margin: 9.5px;
   display: inline-block;
@@ -261,4 +266,13 @@ p {
   font-size: 2em;
   line-height: 1em;
   margin-bottom: 0.5em;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 2.5em;
+  line-height: 2em;
+  background-color: #fff;
 }
