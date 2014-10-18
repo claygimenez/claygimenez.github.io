@@ -131,29 +131,45 @@ p {
 
 .trigger-container {
   bottom: 3em;
-  width: 100%;
-  text-align: center;
   margin-top: 3em;
+  text-align: center;
+  width: 100%;
 }
 
 .trigger {
+  background: #f3f3f3;
   border: 2px solid #e6e6e6;
-  width: 10em;
+  cursor: pointer;
   display: inline-block;
-  padding: 0.75em;
+  font-weight: 600;
   letter-spacing: 0.1em;
+  padding: 0.75em;
+  text-transform: uppercase;
+  width: 10em;
 }
 
-.container {
-  margin: 0 auto;
+.container.featured {
+  margin: 40px auto;
   max-width: 68.5em;
   vertical-align: middle;
   width: 100%;
   box-sizing: border-box;
+  border-top: 6px solid #e6e6e6;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.container.museum {
+  margin: 0px auto;
+  max-width: 68.5em;
+  vertical-align: middle;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0 40px 0;
 }
 
 .container.project {
-  margin: 0 auto 20px auto;
+  margin: 40px auto;
   max-width: 68em;
   vertical-align: middle;
   width: 100%;
@@ -216,4 +232,33 @@ p {
 .main-image img {
   max-width: 700px;
   max-height: 500px;
+}
+
+.feature-project {
+  cursor: pointer;
+}
+
+.feature-image {
+  width: 40%;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  height: 275px;
+}
+
+.feature-image img {
+  width: 100%;
+}
+
+.feature-desc {
+  margin-left: 10%;
+  width: 49.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.feature-title {
+  font-size: 2em;
+  line-height: 1em;
+  margin-bottom: 0.5em;
 }
