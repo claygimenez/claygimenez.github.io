@@ -103,6 +103,10 @@ p {
   display: table;
   position: relative;
   overflow: hidden;
+  background: url("/img/background.png");
+  background-size: cover;
+  background-position: center;
+  background-color: white;
 }
 
 #landing-container {
@@ -120,7 +124,7 @@ p {
 }
 
 .landing-message-1 {
-  font-size: 3em;
+  font-size: 2.5em;
   line-height: 2em;
 }
 
@@ -149,11 +153,11 @@ p {
 }
 
 #featured-projects {
-  margin-top: 136px;
+  margin-top: 137px;
 }
 
 .container.featured {
-  margin: 30px auto;
+  margin: 50px auto;
   max-width: 68.5em;
   vertical-align: middle;
   width: 100%;
@@ -163,9 +167,17 @@ p {
   background-color: #fff;
 }
 
+.container.featured:nth-child(1) {
+  border-top: 5px solid #DE073E;
+}
+
+.container.featured:nth-child(2) {
+  border-top: 5px solid #FF7100;
+}
+
 .container.museum {
-  border-top: 5px solid #e6e6e6;
-  margin: 90px auto;
+  border-top: 5px solid #FFBE00;
+  margin: 50px auto;
   max-width: 68.5em;
   vertical-align: middle;
   width: 100%;
@@ -179,7 +191,7 @@ p {
   max-width: 68em;
   vertical-align: middle;
   width: 100%;
-  border-top: 5px solid #e6e6e6;
+  border-top: 5px solid #DE073E;
   background-color: #fff;
   padding: 50px;
   box-sizing: border-box;
@@ -266,9 +278,10 @@ p {
 }
 
 .feature-title {
-  font-size: 2em;
-  line-height: 1em;
-  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  line-height: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .feature-summary {
@@ -280,7 +293,9 @@ p {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
-  font-size: 2.5em;
-  line-height: 2em;
+  font-size: 1.5em;
+  line-height: 3em;
   background-color: #fff;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
