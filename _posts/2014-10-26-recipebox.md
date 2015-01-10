@@ -5,7 +5,7 @@ title: "Recipe Box"
 categories: design
 ---
 
-This is my Angular + Rails sandbox! The app is simple:
+[This is my Angular + Rails sandbox!](https://maryfood.herokuapp.com/) The app is simple:
 
 - Stores recipe cards
 - Sorts recipes by category
@@ -17,5 +17,6 @@ And this would have taken me hours more to build in Backbone, so mixed feelings
 on all that. I think this app took me an hour or two to get up and running on
 heroku.
 
-And the color scheme is something I just wanted to try. I do love the colors,
-but think this might not be the best place for them somehow.
+And the color scheme is just something I wanted to try. Blues and reds.
+
+![Recipebox Colors](/img/recipebox-colors.png)

@@ -66,6 +66,10 @@ p {
   margin-right: auto;
 }
 
+p img {
+  max-width: 700px;
+}
+
 #header {
   background-color: #fff;
   text-align: center;
