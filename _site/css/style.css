@@ -66,6 +66,19 @@ p {
   margin-right: auto;
 }
 
+.post h2 {
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin-top: 1.25em;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
 p img {
   max-width: 700px;
 }
@@ -107,7 +120,6 @@ p img {
   display: table;
   position: relative;
   overflow: hidden;
-  background: url("/img/background.png");
   background-size: cover;
   background-position: center;
   background-color: white;
@@ -181,8 +193,12 @@ p img {
   border-top: 5px solid #FF7100;
 }
 
-.container.museum {
+.container.featured:nth-child(3) {
   border-top: 5px solid #FFBE00;
+}
+
+.container.museum {
+  border-top: 5px solid #409ecd;
   margin: 50px auto;
   max-width: 68.5em;
   vertical-align: middle;
