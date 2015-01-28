@@ -91,6 +91,7 @@ p img {
   top: 0;
   left: 0;
   border-bottom: 1px solid #e6e6e6;
+  z-index: 1;
 }
 
 #header a {
@@ -123,6 +124,7 @@ p img {
   background-size: cover;
   background-position: center;
   background-color: white;
+  z-index: 5;
 }
 
 #landing-container {
