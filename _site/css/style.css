@@ -121,6 +121,7 @@ p img {
   display: table;
   position: relative;
   overflow: hidden;
+  /* background-image: url('/img/background.png'); */
   background-size: cover;
   background-position: center;
   background-color: white;
@@ -322,4 +323,13 @@ p img {
   background-color: #fff;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+section#footer {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 2em;
+  text-align: center;
+  letter-spacing: 0.025em;
 }
