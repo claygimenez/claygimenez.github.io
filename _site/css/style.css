@@ -230,6 +230,7 @@ p img {
   vertical-align: middle;
   width: 100%;
   box-sizing: border-box;
+  border: 2px solid #e6e6e6;
   border-top: 5px solid #e6e6e6;
   padding: 20px;
   background-color: #fff;
@@ -248,6 +249,7 @@ p img {
 }
 
 .container.museum {
+  border: 2px solid #e6e6e6;
   border-top: 5px solid #e6e6e6;
   margin: 50px auto;
   max-width: 68.5em;
