@@ -59,7 +59,7 @@ body {
 
 ul {
   list-style-type: none;
-  font-size: 17px;
+  font-size: 1em;
   margin-top: 20px;
   max-width: 700px;
   margin-left: auto;
@@ -225,10 +225,10 @@ p img {
 }
 
 .container.featured {
-  margin: 50px auto 75px auto;
+  margin: 60px auto;
   max-width: 68.5em;
   vertical-align: middle;
-  width: 100%;
+  width: 760px;
   box-sizing: border-box;
   border: 2px solid #e6e6e6;
   border-top: 5px solid #e6e6e6;
@@ -333,7 +333,7 @@ p img {
 }
 
 .feature-image {
-  width: 40%;
+  width: calc(50% - 18px);
   display: inline-block;
   background-size: cover;
   background-position: center;
@@ -345,8 +345,8 @@ p img {
 }
 
 .feature-desc {
-  margin-left: 10%;
-  width: 49.5%;
+  margin-left: 30px;
+  width: calc(50% - 18px);
   display: inline-block;
   vertical-align: top;
 }
@@ -360,8 +360,8 @@ p img {
 }
 
 .feature-summary {
-  font-size: 1.2em;
-  line-height: 1.6em;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 .heading {
