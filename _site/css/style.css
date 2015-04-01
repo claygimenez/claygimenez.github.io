@@ -298,15 +298,15 @@ p img {
   display: none;
 }
 
-.container.featured:nth-child(1) {
+.container.featured:nth-child(1n) {
   border-top: 5px solid #DE073E;
 }
 
-.container.featured:nth-child(2) {
+.container.featured:nth-child(2n) {
   border-top: 5px solid #FF7100;
 }
 
-.container.featured:nth-child(3) {
+.container.featured:nth-child(3n) {
   border-top: 5px solid #FFBE00;
 }
 
