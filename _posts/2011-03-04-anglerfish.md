@@ -2,7 +2,8 @@
 layout: portfolio_entry_small
 image: "/img/anglerfish.jpg"
 title: "Anglerfish"
-categories: engineering
+description: 'Named "Fish god awesome" by the legendary Dave Barrett.'
+categories: prototyping
 ---
 
 - **Name:** Cuddles
