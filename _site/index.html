@@ -18,18 +18,18 @@
 
         <div class="filter">
           <ul class="nav">
-            <li class="active">Recent</li>
-            <li>Graphics</li>
-            <li>Prototyping</li>
-            <li>UI/UX</li>
-            <li>Web Development</li>
+            <li data-category="recent" class="active">Recent</li>
+            <li data-category="graphics">Graphics</li>
+            <li data-category="prototyping">Prototyping</li>
+            <li data-category="ui-ux">UI/UX</li>
+            <li data-category="web-development">Web Development</li>
           </ul>
         </div>
 
         <div id="main">
           <div id="featured-projects">
 
-  <div class="container featured">
+  <div class="container featured" data-category="recent">
     <div class="feature-project" onclick="window.location.href='/design/2015/01/11/gg.html';">
       <div class="feature-image" style="background-image: url('/img/gg-mockup.png')">
       </div>
@@ -47,7 +47,7 @@
     </div>
   </div>
 
-  <div class="container featured">
+  <div class="container featured" data-category="web-development">
     <div class="feature-project" onclick="window.location.href='/engineering/2014/10/18/mobile.html';">
       <div class="feature-image" style="background-image: url('/img/mobile.jpg')">
       </div>
@@ -65,7 +65,7 @@
     </div>
   </div>
 
-  <div class="container featured">
+  <div class="container featured" data-category="web-development">
     <div class="feature-project" onclick="window.location.href='/engineering/2013/11/01/blog.html';">
       <div class="feature-image" style="background-image: url('/img/blog.png')">
       </div>
@@ -107,7 +107,7 @@
 <!--       </div> -->
 <!--     </div> -->
 <!--      -->
-<!--     <div class="index-project" onclick="window.location.href='/etc/2014/01/22/poppy.html';"> -->
+<!--     <div class="index-project" onclick="window.location.href='/graphics/2014/01/22/poppy.html';"> -->
 <!--       <div class="index-project-img" style="background-image: url('/img/poppy.png');"> -->
 <!--       </div> -->
 <!--     </div> -->
@@ -132,7 +132,7 @@
 <!--       </div> -->
 <!--     </div> -->
 <!--      -->
-<!--     <div class="index-project" onclick="window.location.href='/engineering/2011/03/24/uav.html';"> -->
+<!--     <div class="index-project" onclick="window.location.href='/prototyping/2011/03/24/uav.html';"> -->
 <!--       <div class="index-project-img" style="background-image: url('/img/uav.png');"> -->
 <!--       </div> -->
 <!--     </div> -->
@@ -156,6 +156,24 @@
         Copyright 2015 Mary Schmidt
         </section>
       </div>
+
+
+      <script>
+        $('document').ready(function() {
+          $('ul.nav li').on('click', function(e) {
+            $category = e.target.dataset.category;
+
+            $('#featured-projects').children().filter(function() {
+              return $(this).data('category') === $category;
+            }).show();
+
+            $('#featured-projects').children().filter(function() {
+              return $(this).data('category') != $category;
+            }).hide();
+
+          });
+        });
+      </script>
 
     </body>
 </html>

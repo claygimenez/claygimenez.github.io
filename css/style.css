@@ -291,6 +291,7 @@ p img {
   border-top: 5px solid #e6e6e6;
   padding: 20px;
   background-color: #fff;
+  display: none;
 }
 
 .container.featured:nth-child(1) {
