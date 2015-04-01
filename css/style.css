@@ -153,7 +153,8 @@ p {
 }
 
 p img {
-  max-width: 700px;
+  max-width: 600px;
+  margin: 2em 50px;
 }
 
 .header h1.title{
