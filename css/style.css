@@ -202,6 +202,10 @@ p img {
   /* padding-top: 96px; */
 }
 
+#main.nofilter {
+  margin: 0 100px;
+}
+
 #landing {
   -webkit-transition: all 0.5s linear;
   background-color: #fff;
@@ -319,7 +323,7 @@ p img {
 }
 
 .container.project {
-  margin: 136px auto 90px auto;
+  margin: 2em auto;
   max-width: 68em;
   vertical-align: middle;
   width: 100%;

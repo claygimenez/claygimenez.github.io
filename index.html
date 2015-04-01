@@ -6,68 +6,28 @@ title: Mary Schmidt
 
 <div id="featured-projects">
 
-  <div class="container featured" data-category="recent">
-    <div class="feature-project" onclick="window.location.href='/design/2015/01/11/gg.html';">
-      <div class="feature-image" style="background-image: url('/img/gg-mockup.png')">
+  {% for post in site.posts %}
+
+  <div class="container featured" data-category="{{ post.categories }}">
+    <div class="feature-project" onclick="window.location.href='{{ post.url }}';">
+      <div class="feature-image" style="background-image: url('{{ post.image }}')">
       </div>
       <div class="feature-desc">
-        <div class="feature-title">Bridging the Gap</div>
+        <div class="feature-title">{{ post.title }}</div>
         <div class="feature-summary">
-          Designed an online prayer community
+          {{ post.description }}
           <ul>
-            <li>Built a brand</li>
-            <li>Created logo and graphic assets</li>
-            <li>Drafted the business model</li>
+            {% for li in post.list %}
+
+            <li>{{ li }}</li>
+
+            {% endfor %}
           </ul>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container featured" data-category="web-development">
-    <div class="feature-project" onclick="window.location.href='/engineering/2014/10/18/mobile.html';">
-      <div class="feature-image" style="background-image: url('/img/mobile.jpg')">
-      </div>
-      <div class="feature-desc">
-        <div class="feature-title">Mobile Web App</div>
-        <div class="feature-summary">
-          Created a new mobile experience for Wistia
-          <ul>
-            <li>Rails as a RESTful JSON API</li>
-            <li>ActiveModel::Serializers</li>
-            <li>Backbone.js</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+  {% endfor %}
 
-  <div class="container featured" data-category="web-development">
-    <div class="feature-project" onclick="window.location.href='/engineering/2013/11/01/blog.html';">
-      <div class="feature-image" style="background-image: url('/img/blog.png')">
-      </div>
-      <div class="feature-desc">
-        <div class="feature-title">In-house Blog</div>
-        <div class="feature-summary">
-          Built a blog using Ruby on Rails and Elasticsearch to
-          <ul>
-            <li>Control presentation of content and viewer experience</li>
-            <li>Provide search engine optimization</li>
-            <li>Communicate company personality</li>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
-<!--  -->
-<!-- <div class="container museum"> -->
-<!--   <div class="heading">Museum</div> -->
-<!--   <div id="index-projects"> -->
-<!--     {% for post in site.posts %} -->
-<!--     <div class="index-project" onclick="window.location.href='{{ post.url }}';"> -->
-<!--       <div class="index-project-img" style="background-image: url('{{ post.image }}');"> -->
-<!--       </div> -->
-<!--     </div> -->
-<!--     {% endfor %} -->
-<!--   </div> -->
-<!-- </div> -->
