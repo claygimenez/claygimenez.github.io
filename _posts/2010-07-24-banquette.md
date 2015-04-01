@@ -2,7 +2,7 @@
 layout: portfolio_entry_small
 image: "/img/banquette.jpg"
 title: "Banquette"
-description: "Mary's dapples in furniture design, part 1"
+description: "Mary's adventures in furniture design, part 1"
 categories: etc
 ---
 
