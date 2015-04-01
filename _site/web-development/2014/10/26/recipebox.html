@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>design</title>
+        <title>Recipe Box</title>
         <meta name="viewport" content="width=1080">
         <link rel="stylesheet" href="/css/style.css">
         <script src="/js/jquery-1.11.1.min.js"></script>
@@ -16,20 +16,32 @@
           <h1 class="title"><a href="/">Mary Schmidt</a></h1>
         </div>
 
-        <div class="filter">
-          <ul class="nav">
-            <li data-category="web-development" class="active">Web Development</li>
-            <li data-category="ui-ux">UI/UX</li>
-            <li data-category="prototyping">Prototyping</li>
-            <li data-category="graphics">Graphics</li>
-            <li data-category="etc">etc</li>
-          </ul>
-        </div>
+        <div id="main" class="nofilter">
+          <div class="container project">
+  <h2 class="project">Recipe Box</h2>
+  <div class="meta">26 Oct 2014</div>
+  <div class="main-image">
+    <img src=/img/recipebox.png>
+  </div>
 
-        <div id="main">
-          <section class="projects">
-  
-</section>
+  <div class="post">
+  <p><a href="https://maryfood.herokuapp.com/">This is my Angular + Rails sandbox!</a> The app is simple:</p>
+
+<ul>
+<li>Stores recipe cards</li>
+
+<li>Sorts recipes by category</li>
+
+<li>Shows individual recipes in detail</li>
+</ul>
+
+<p>Wiring up Angular with Rails was stupidly easy. It felt weird plugging black boxes into my templates everywhere, but the boxes seem to work really well… And this would have taken me hours more to build in Backbone, so mixed feelings on all that. I think this app took me an hour or two to get up and running on heroku.</p>
+
+<p>And the color scheme is just something I wanted to try. Blues and reds.</p>
+
+<p><img src="/img/recipebox-colors.png" alt="Recipebox Colors" /></p>
+  </div>
+</div>
 
         </div>
 

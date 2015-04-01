@@ -2,7 +2,8 @@
 layout: portfolio_entry_small
 image: "/img/banquette.jpg"
 title: "Banquette"
-categories: design
+description: "Mary's dapples in furniture design, part 1"
+categories: etc
 ---
 
 Growing up, my family had a strangely shaped breakfast

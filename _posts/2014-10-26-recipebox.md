@@ -2,7 +2,8 @@
 layout: portfolio_entry_small
 image: "/img/recipebox.png"
 title: "Recipe Box"
-categories: design
+description: "Angular + Rails sandbox"
+categories: web-development
 ---
 
 [This is my Angular + Rails sandbox!](https://maryfood.herokuapp.com/) The app is simple:
