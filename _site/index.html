@@ -18,11 +18,10 @@
 
         <div class="filter">
           <ul class="nav">
-            <li data-category="recent" class="active">Recent</li>
             <li data-category="graphics">Graphics</li>
             <li data-category="prototyping">Prototyping</li>
             <li data-category="ui-ux">UI/UX</li>
-            <li data-category="web-development">Web Development</li>
+            <li data-category="web-development" class="active">Web Development</li>
           </ul>
         </div>
 
@@ -160,18 +159,35 @@
 
       <script>
         $('document').ready(function() {
-          $('ul.nav li').on('click', function(e) {
-            $category = e.target.dataset.category;
 
+
+          $('#featured-projects').children().filter(function() {
+            return $(this).data('category') === 'web-development';
+          }).show();
+
+
+          $('ul.nav li').on('click', function(e) {
+            $elem = $(e.target);
+            category = e.target.dataset.category;
+
+            // change classes on li's
+            $('ul.nav li').removeClass('active');
+            $elem.addClass('active');
+
+            // show projects matching filter
             $('#featured-projects').children().filter(function() {
-              return $(this).data('category') === $category;
+              return $(this).data('category') === category;
             }).show();
 
+            // and hide projects not matching filter
             $('#featured-projects').children().filter(function() {
-              return $(this).data('category') != $category;
+              return $(this).data('category') != category;
             }).hide();
 
+
           });
+
+
         });
       </script>
 
