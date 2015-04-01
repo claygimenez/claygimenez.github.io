@@ -82,6 +82,32 @@ ul li:before {
   background-color: #e6e6e6;
 }
 
+ul.nav {
+  display: inline-block;
+  padding: 0;
+}
+
+ul.nav li {
+  display: block;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+ul.nav li.active {
+  color: #DE073E;
+}
+
+ul.nav li:before {
+  content: "\A";
+  width: 0;
+  height: 0;
+  position: absolute;
+  margin-left: 0;
+  margin-top: 0;
+  background-color: #fff;
+}
+
+
 h1, h2 {
   font-weight: 200;
 }
@@ -130,6 +156,19 @@ p img {
   max-width: 700px;
 }
 
+.header h1.title{
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+.header h1.title a{
+  text-decoration: none;
+  color: #333;
+  width: 1000px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
 #header {
   background-color: #fff;
   text-align: center;
@@ -147,10 +186,19 @@ p img {
   line-height: 36px;
   color: #333;
   font-weight: 200;
+  width: 50%;
+  display: inline-block;
+}
+
+.main-container {
+  width: 1000px;
+  margin: 0 auto;
 }
 
 #main {
   height: 100%;
+  width: 800px;
+  display: inline-block;
   /* padding-top: 96px; */
 }
 
@@ -221,11 +269,20 @@ p img {
 }
 
 #featured-projects {
-  margin-top: 137px;
+  margin: 0 auto 0 auto;
+  width: 850px;
+}
+
+.filter {
+  width: 150px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 40px;
 }
 
 .container.featured {
-  margin: 40px auto;
+  margin: 40px 0 40px auto;
   max-width: 68.5em;
   vertical-align: middle;
   width: 760px;

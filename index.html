@@ -3,19 +3,9 @@ layout: default
 title: Mary Schmidt
 ---
 
-<div id="landing">
-  <div id="landing-container">
-    <div id="landing-content">
-      <div class="landing-message-1">Hi, I'm Mary</div>
-      <div class="landing-message-2">I build things!</div>
-      <div class="trigger-container">
-        <div class="trigger">Take a look</div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div id="featured-projects">
+
   <div class="container featured">
     <div class="feature-project" onclick="window.location.href='/design/2015/01/11/gg.html';">
       <div class="feature-image" style="background-image: url('/img/gg-mockup.png')">
@@ -69,15 +59,15 @@ title: Mary Schmidt
     </div>
   </div>
 </div>
-
-<div class="container museum">
-  <div class="heading">Museum</div>
-  <div id="index-projects">
-    {% for post in site.posts %}
-    <div class="index-project" onclick="window.location.href='{{ post.url }}';">
-      <div class="index-project-img" style="background-image: url('{{ post.image }}');">
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
+<!--  -->
+<!-- <div class="container museum"> -->
+<!--   <div class="heading">Museum</div> -->
+<!--   <div id="index-projects"> -->
+<!--     {% for post in site.posts %} -->
+<!--     <div class="index-project" onclick="window.location.href='{{ post.url }}';"> -->
+<!--       <div class="index-project-img" style="background-image: url('{{ post.image }}');"> -->
+<!--       </div> -->
+<!--     </div> -->
+<!--     {% endfor %} -->
+<!--   </div> -->
+<!-- </div> -->
