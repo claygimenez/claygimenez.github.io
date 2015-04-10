@@ -54,7 +54,7 @@ body {
   padding: 0;
   height: 100%;
   min-height: 100%;
-  background-color: #f3f3f3;
+  background-color: #f5f3f5;
 }
 
 ul {
@@ -131,6 +131,12 @@ p {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+}
+
+p a {
+  color: #B076C0;
+  text-decoration: none;
+  border-bottom: 1px solid #eee1f1;
 }
 
 .post h3 {
@@ -294,7 +300,7 @@ p img {
   vertical-align: middle;
   width: 720px;
   box-sizing: border-box;
-  border: 2px solid #e6e6e6;
+  border: 2px solid #e8e6e8;
   padding: 20px;
   background-color: #fff;
   display: none;
@@ -338,7 +344,7 @@ p img {
   max-width: 68em;
   vertical-align: middle;
   width: 100%;
-  border-top: 5px solid #e6e6e6;
+  border-top: 2px solid #e8e6e8;
   background-color: #fff;
   padding: 50px;
   box-sizing: border-box;
