@@ -48,7 +48,7 @@ body {
   font-family: Open Sans, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 16px;
   line-height: 22px;
-  color: #333;
+  color: #28142d;
   -webkit-font-smoothing: antialiased;
   margin: 0;
   padding: 0;
@@ -88,13 +88,14 @@ ul.nav {
 }
 
 ul.nav li {
-  display: block;
+  display: inline-block;
   font-weight: 500;
   cursor: pointer;
+  padding: 4px 16px;
 }
 
 ul.nav li.active {
-  color: #DE073E;
+  color: #B076C0;
 }
 
 ul.nav li:before {
@@ -116,6 +117,7 @@ h1.title {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 h2.project {
@@ -164,7 +166,7 @@ p img {
 
 .header h1.title a{
   text-decoration: none;
-  color: #333;
+  color: #28142d;
   width: 1000px;
   margin: 0 auto;
   font-weight: 500;
@@ -185,7 +187,7 @@ p img {
   text-decoration: none;
   font-size: 26px;
   line-height: 36px;
-  color: #333;
+  color: #28142d;
   font-weight: 200;
   width: 50%;
   display: inline-block;
@@ -198,13 +200,14 @@ p img {
 
 #main {
   height: 100%;
-  width: 800px;
-  display: inline-block;
-  /* padding-top: 96px; */
+  width: 720px;
+  display: block;
+  margin: 0 auto;
 }
 
 #main.nofilter {
   margin: 0 100px;
+  width: 800px;
 }
 
 #landing {
@@ -275,28 +278,35 @@ p img {
 
 #featured-projects {
   margin: 0 auto 0 auto;
-  width: 850px;
+  width: 720px;
 }
 
 .filter {
-  width: 150px;
-  text-align: left;
-  display: inline-block;
+  width: 720px;
+  text-align: center;
   vertical-align: top;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
 }
 
 .container.featured {
-  margin: 20px 0 20px auto;
+  margin: 20px auto 20px auto;
   max-width: 68.5em;
   vertical-align: middle;
-  width: 760px;
+  width: 720px;
   box-sizing: border-box;
   border: 2px solid #e6e6e6;
-  border-top: 5px solid #e6e6e6;
   padding: 20px;
   background-color: #fff;
   display: none;
+}
+
+
+.container.featured:hover {
+  border-top: 2px solid #B076C0;
+}
+
+.container.featured:hover .feature-desc .feature-title {
+  color: #B076C0;
 }
 
 /* .container.featured:nth-child(1n) { */
@@ -441,7 +451,7 @@ p img {
 section#footer {
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   margin: 2em 0;
   text-align: center;
   letter-spacing: 0.025em;
