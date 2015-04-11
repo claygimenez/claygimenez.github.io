@@ -95,7 +95,7 @@ ul.nav li {
 }
 
 ul.nav li.active {
-  color: #B076C0;
+  color: #8d4aa0;
 }
 
 ul.nav li:before {
@@ -134,7 +134,7 @@ p {
 }
 
 p a {
-  color: #B076C0;
+  color: #8d4aa0;
   text-decoration: none;
   border-bottom: 1px solid #eee1f1;
 }
@@ -308,11 +308,11 @@ p img {
 
 
 .container.featured:hover {
-  border-top: 2px solid #B076C0;
+  border-top: 2px solid #8d4aa0;
 }
 
 .container.featured:hover .feature-desc .feature-title {
-  color: #B076C0;
+  color: #8d4aa0;
 }
 
 /* .container.featured:nth-child(1n) { */
