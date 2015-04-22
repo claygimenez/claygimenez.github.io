@@ -39,21 +39,6 @@
         <div class="feature-title">God's Gables</div>
         <div class="feature-summary">
           Graphics for a religious startup
-          <ul>
-            
-
-            <li>Color palette</li>
-
-            
-
-            <li>Logo + icon</li>
-
-            
-
-            <li>Assorted branding graphics</li>
-
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -69,21 +54,6 @@
         <div class="feature-title">Bridging the Gap</div>
         <div class="feature-summary">
           Designed an interface to make prayers at home in the Web
-          <ul>
-            
-
-            <li>Built a brand</li>
-
-            
-
-            <li>Created logo and graphic assets</li>
-
-            
-
-            <li>Drafted the business model</li>
-
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -99,9 +69,6 @@
         <div class="feature-title">Recipe Box</div>
         <div class="feature-summary">
           Angular + Rails sandbox
-          <ul>
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -117,21 +84,6 @@
         <div class="feature-title">Mobile Web App</div>
         <div class="feature-summary">
           Created a new mobile experience for Wistia
-          <ul>
-            
-
-            <li>Rails as a RESTful JSON API</li>
-
-            
-
-            <li>ActiveModel::Serializers</li>
-
-            
-
-            <li>Backbone.js</li>
-
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -147,9 +99,6 @@
         <div class="feature-title">Annie</div>
         <div class="feature-summary">
           Illustration of my little sister
-          <ul>
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -165,17 +114,6 @@
         <div class="feature-title">Poppy</div>
         <div class="feature-summary">
           
-          <ul>
-            
-
-            <li>First in a series of flowers</li>
-
-            
-
-            <li>Drawn in Inkscape</li>
-
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -190,22 +128,7 @@
       <div class="feature-desc">
         <div class="feature-title">In-house Blog</div>
         <div class="feature-summary">
-          Built a blog using Ruby on Rails and Elasticsearch to
-          <ul>
-            
-
-            <li>Control presentation of content and viewer experience</li>
-
-            
-
-            <li>Provide search engine optimization</li>
-
-            
-
-            <li>Communicate company personality</li>
-
-            
-          </ul>
+          Built a blog using Ruby on Rails and Elasticsearch
         </div>
       </div>
     </div>
@@ -221,9 +144,6 @@
         <div class="feature-title">Maker</div>
         <div class="feature-summary">
           
-          <ul>
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -239,9 +159,6 @@
         <div class="feature-title">Hypnos</div>
         <div class="feature-summary">
           Icon for a sleep startup
-          <ul>
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -257,21 +174,6 @@
         <div class="feature-title">Unkle Dunkin</div>
         <div class="feature-summary">
           3D printed dunkleosteus
-          <ul>
-            
-
-            <li>Actuated jaw and tail</li>
-
-            
-
-            <li>Driven by a Scotch yoke</li>
-
-            
-
-            <li>Designed in SolidWorks</li>
-
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -287,9 +189,6 @@
         <div class="feature-title">Propulsion system redesign</div>
         <div class="feature-summary">
           Redesigned the thruster system for a commercial submersible vehicle
-          <ul>
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -305,9 +204,6 @@
         <div class="feature-title">Anglerfish</div>
         <div class="feature-summary">
           Named "Fish god awesome" by the legendary Dave Barrett.
-          <ul>
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -323,9 +219,6 @@
         <div class="feature-title">Banquette</div>
         <div class="feature-summary">
           Mary's adventures in furniture design, part 1
-          <ul>
-            
-          </ul>
         </div>
       </div>
     </div>
@@ -349,7 +242,7 @@
 
           $('#featured-projects').children().filter(function() {
             return $(this).data('category') === 'web-development';
-          }).show();
+          }).css('display', 'inline-block');
 
 
           $('ul.nav li').on('click', function(e) {
@@ -363,7 +256,7 @@
             // show projects matching filter
             $('#featured-projects').children().filter(function() {
               return $(this).data('category') === category;
-            }).show();
+            }).css('display', 'inline-block');
 
             // and hide projects not matching filter
             $('#featured-projects').children().filter(function() {

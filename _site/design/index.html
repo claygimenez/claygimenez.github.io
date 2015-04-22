@@ -45,7 +45,7 @@
 
           $('#featured-projects').children().filter(function() {
             return $(this).data('category') === 'web-development';
-          }).show();
+          }).css('display', 'inline-block');
 
 
           $('ul.nav li').on('click', function(e) {
@@ -59,7 +59,7 @@
             // show projects matching filter
             $('#featured-projects').children().filter(function() {
               return $(this).data('category') === category;
-            }).show();
+            }).css('display', 'inline-block');
 
             // and hide projects not matching filter
             $('#featured-projects').children().filter(function() {
