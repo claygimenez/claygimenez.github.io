@@ -4,6 +4,7 @@ image: "/img/recipebox.png"
 title: "Recipe Box"
 description: "Angular + Rails sandbox"
 categories: web-development
+color: '#F24659'
 ---
 
 [This is my Angular + Rails sandbox!](https://maryfood.herokuapp.com/) The app is simple:

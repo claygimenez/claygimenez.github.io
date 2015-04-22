@@ -4,6 +4,7 @@ image: "/img/anglerfish.jpg"
 title: "Anglerfish"
 description: 'Named "Fish god awesome" by the legendary Dave Barrett.'
 categories: prototyping
+color: '#068FDF'
 ---
 
 - **Name:** Cuddles

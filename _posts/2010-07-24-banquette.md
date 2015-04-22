@@ -4,6 +4,7 @@ image: "/img/banquette.jpg"
 title: "Banquette"
 description: "Mary's adventures in furniture design, part 1"
 categories: etc
+color: '#C66B1C'
 ---
 
 Growing up, my family had a strangely shaped breakfast
