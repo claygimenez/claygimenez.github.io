@@ -64,6 +64,25 @@
           }).css('display', 'inline-block');
 
 
+          $('.container.featured').on('mouseenter', function(e) {
+            target = e.currentTarget;
+            color = target.dataset.color || '#8d4aa0';
+            $titleDiv = $(target).children('.feature-project').children().children().first();
+
+            $titleDiv.css('color', color);
+            return $(target).css('border-top', "2px solid " + color);
+          });
+
+
+          $('.container.featured').on('mouseleave', function(e) {
+            target = e.currentTarget;
+            $titleDiv = $(target).children('.feature-project').children().children().first();
+
+            $titleDiv.css('color', '#28142d');
+            return $(target).css('border-top', '2px solid #e8e6e8');
+          });
+
+
           $('ul.nav li').on('click', function(e) {
             $elem = $(e.target);
             category = e.target.dataset.category;
