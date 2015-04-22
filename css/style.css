@@ -94,8 +94,14 @@ ul.nav li {
   padding: 4px 16px;
 }
 
-ul.nav li.active {
+ul.nav li:hover {
   color: #8d4aa0;
+}
+
+ul.nav li.active {
+  background-color: #8d4aa0;
+  color: #ffffff;
+  border-radius: 2px;
 }
 
 ul.nav li:before {
@@ -291,7 +297,7 @@ p img {
   width: 720px;
   text-align: center;
   vertical-align: top;
-  margin: 20px auto 0 auto;
+  margin: 20px auto;
 }
 
 .filter-projects{
