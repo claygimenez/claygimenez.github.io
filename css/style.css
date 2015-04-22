@@ -200,19 +200,19 @@ p img {
 }
 
 .main-container {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 #main {
   height: 100%;
-  width: 900px;
+  width: 1132px;
   display: block;
   margin: 0 auto;
 }
 
 #main.nofilter {
-  margin: 0 100px;
+  margin: 0 auto;
   width: 800px;
 }
 
@@ -284,7 +284,7 @@ p img {
 
 #featured-projects {
   margin: 0 auto 0 auto;
-  width: 764px;
+  width: 1132px;
 }
 
 .filter {
@@ -292,6 +292,9 @@ p img {
   text-align: center;
   vertical-align: top;
   margin: 20px auto 0 auto;
+}
+
+.filter-projects{
 }
 
 .container.featured {
