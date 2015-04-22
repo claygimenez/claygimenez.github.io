@@ -19,7 +19,8 @@
         <div class="filter-projects">
           <div class="filter">
             <ul class="nav">
-              <li data-category="web-development" class="active">Web Development</li>
+              <li data-category="recent" class="active">Recent</li>
+              <li data-category="web-development">Web Development</li>
               <li data-category="ui-ux">UI/UX</li>
               <li data-category="prototyping">Prototyping</li>
               <li data-category="graphics">Graphics</li>
@@ -32,7 +33,7 @@
 
   
 
-  <div class="container featured" data-category="graphics">
+  <div class="container featured" data-category="recent graphics">
     <div class="feature-project" onclick="window.location.href='/graphics/2015/03/24/gg-art.html';">
       <div class="feature-image" style="background-image: url('/img/gg-bird.png')">
       </div>
@@ -47,7 +48,7 @@
 
   
 
-  <div class="container featured" data-category="ui-ux">
+  <div class="container featured" data-category="recent ui-ux">
     <div class="feature-project" onclick="window.location.href='/ui-ux/2015/01/11/gg.html';">
       <div class="feature-image" style="background-image: url('/img/gg-mockup.png')">
       </div>
@@ -62,7 +63,7 @@
 
   
 
-  <div class="container featured" data-category="web-development">
+  <div class="container featured" data-category="recent web-development">
     <div class="feature-project" onclick="window.location.href='/web-development/2014/10/26/recipebox.html';">
       <div class="feature-image" style="background-image: url('/img/recipebox.png')">
       </div>
@@ -77,7 +78,7 @@
 
   
 
-  <div class="container featured" data-category="web-development">
+  <div class="container featured" data-category="recent web-development">
     <div class="feature-project" onclick="window.location.href='/web-development/2014/10/18/mobile.html';">
       <div class="feature-image" style="background-image: url('/img/mobile.jpg')">
       </div>
@@ -92,7 +93,7 @@
 
   
 
-  <div class="container featured" data-category="graphics">
+  <div class="container featured" data-category="recent graphics">
     <div class="feature-project" onclick="window.location.href='/graphics/2014/02/03/annie.html';">
       <div class="feature-image" style="background-image: url('/img/annie.png')">
       </div>
@@ -107,7 +108,7 @@
 
   
 
-  <div class="container featured" data-category="graphics">
+  <div class="container featured" data-category="recent graphics">
     <div class="feature-project" onclick="window.location.href='/graphics/2014/01/22/poppy.html';">
       <div class="feature-image" style="background-image: url('/img/poppy.png')">
       </div>
@@ -122,7 +123,7 @@
 
   
 
-  <div class="container featured" data-category="web-development">
+  <div class="container featured" data-category="recent web-development">
     <div class="feature-project" onclick="window.location.href='/web-development/2013/11/01/blog.html';">
       <div class="feature-image" style="background-image: url('/img/blog.png')">
       </div>
@@ -137,7 +138,7 @@
 
   
 
-  <div class="container featured" data-category="engineering">
+  <div class="container featured" data-category="recent engineering">
     <div class="feature-project" onclick="window.location.href='/engineering/2013/03/01/maker.html';">
       <div class="feature-image" style="background-image: url('/img/maker.png')">
       </div>
@@ -152,7 +153,7 @@
 
   
 
-  <div class="container featured" data-category="graphics">
+  <div class="container featured" data-category="recent graphics">
     <div class="feature-project" onclick="window.location.href='/graphics/2012/03/12/hypnos.html';">
       <div class="feature-image" style="background-image: url('/img/hypnos.png')">
       </div>
@@ -167,7 +168,7 @@
 
   
 
-  <div class="container featured" data-category="prototyping">
+  <div class="container featured" data-category="recent prototyping">
     <div class="feature-project" onclick="window.location.href='/prototyping/2011/04/22/fish.html';">
       <div class="feature-image" style="background-image: url('/img/fish.png')">
       </div>
@@ -182,7 +183,7 @@
 
   
 
-  <div class="container featured" data-category="prototyping">
+  <div class="container featured" data-category="recent prototyping">
     <div class="feature-project" onclick="window.location.href='/prototyping/2011/03/24/uav.html';">
       <div class="feature-image" style="background-image: url('/img/uav.png')">
       </div>
@@ -197,7 +198,7 @@
 
   
 
-  <div class="container featured" data-category="prototyping">
+  <div class="container featured" data-category="recent prototyping">
     <div class="feature-project" onclick="window.location.href='/prototyping/2011/03/04/anglerfish.html';">
       <div class="feature-image" style="background-image: url('/img/anglerfish.jpg')">
       </div>
@@ -212,7 +213,7 @@
 
   
 
-  <div class="container featured" data-category="etc">
+  <div class="container featured" data-category="recent etc">
     <div class="feature-project" onclick="window.location.href='/etc/2010/07/24/banquette.html';">
       <div class="feature-image" style="background-image: url('/img/banquette.jpg')">
       </div>
@@ -243,7 +244,7 @@
 
 
           $('#featured-projects').children().filter(function() {
-            return $(this).data('category') === 'web-development';
+            return $(this).data('category').match(/recent/);
           }).css('display', 'inline-block');
 
 
@@ -257,12 +258,12 @@
 
             // show projects matching filter
             $('#featured-projects').children().filter(function() {
-              return $(this).data('category') === category;
+              return $(this).data('category').match(category);
             }).css('display', 'inline-block');
 
             // and hide projects not matching filter
             $('#featured-projects').children().filter(function() {
-              return $(this).data('category') != category;
+              return !$(this).data('category').match(category);
             }).hide();
 
 
