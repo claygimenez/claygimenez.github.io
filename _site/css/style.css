@@ -127,8 +127,10 @@ h1.title {
 }
 
 h2.project {
-  margin: 0;
+  display: block;
+  margin: 0 auto;
   padding: 0;
+  text-align: center;
 }
 
 p {
@@ -359,7 +361,9 @@ p img {
 }
 
 .meta {
-  margin: 1em 0;
+  display: block;
+  margin: 1em auto 2em auto;
+  text-align: center;
 }
 
 .index-project {
@@ -408,6 +412,7 @@ p img {
 
 .main-image {
   text-align: center;
+  margin-bottom: 2em;
 }
 
 .main-image img {
