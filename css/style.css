@@ -147,6 +147,10 @@ p a {
   border-bottom: 1px solid #eee1f1;
 }
 
+.post {
+  text-align: left;
+}
+
 .post h3 {
   font-weight: 500;
   max-width: 700px;
@@ -209,19 +213,23 @@ p img {
 
 .main-container {
   width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 #main {
   height: 100%;
   width: 1132px;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
+  text-align: left;
 }
 
 #main.nofilter {
   margin: 0 auto;
   width: 960px;
+  max-width: 100%;
 }
 
 #landing {
@@ -293,10 +301,12 @@ p img {
 #featured-projects {
   margin: 0 auto 0 auto;
   width: 1132px;
+  max-width: 100%;
 }
 
 .filter {
   width: 720px;
+  max-width: 100%;
   text-align: center;
   vertical-align: top;
   margin: 20px auto;
@@ -441,6 +451,7 @@ p img {
   margin-left: 5px;
   width: calc(100% - 10px);
   display: inline-block;
+  text-align: left;
   vertical-align: top;
 }
 
