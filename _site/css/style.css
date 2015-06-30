@@ -326,14 +326,15 @@ p img {
 }
 
 .container.featured {
+  background-color: #fff;
+  border: 2px solid #e8e6e8;
+  box-sizing: border-box;
+  display: none;
   margin: 7px;
+  max-width: calc(100% - 20px);
+  padding: 10px;
   vertical-align: top;
   width: 360px;
-  box-sizing: border-box;
-  border: 2px solid #e8e6e8;
-  padding: 10px;
-  background-color: #fff;
-  display: none;
 }
 
 
@@ -442,10 +443,12 @@ p img {
 
 .feature-project {
   cursor: pointer;
+  max-width: 100%;
 }
 
 .feature-image {
   width: 335px;
+  max-width: 100%;
   display: inline-block;
   background-size: cover;
   background-position: center;
@@ -454,12 +457,14 @@ p img {
 
 .feature-image img {
   width: 100%;
+  max-width: 100%;
 }
 
 .feature-desc {
   font-size: .9em;
   margin-left: 5px;
   width: calc(100% - 10px);
+  max-width: 100%;
   display: inline-block;
   text-align: left;
   vertical-align: top;
