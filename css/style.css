@@ -133,6 +133,10 @@ h2.project {
   text-align: center;
 }
 
+strong {
+  font-weight: 500;
+}
+
 p {
   letter-spacing: 0.02em;
   line-height: 2em;
