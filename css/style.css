@@ -61,7 +61,7 @@ ul {
   list-style-type: none;
   font-size: 1em;
   margin-top: 20px;
-  max-width: 700px;
+  max-width: 720px;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
@@ -136,7 +136,7 @@ h2.project {
 p {
   letter-spacing: 0.02em;
   line-height: 2em;
-  max-width: 700px;
+  max-width: 720px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -153,7 +153,7 @@ p a {
 
 .post h3 {
   font-weight: 500;
-  max-width: 700px;
+  max-width: 720px;
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
@@ -162,7 +162,7 @@ p a {
 .post h2 {
   letter-spacing: 0.05em;
   line-height: 1.5em;
-  max-width: 700px;
+  max-width: 720px;
   margin-left: auto;
   margin-right: auto;
   -webkit-margin-before: 0;
@@ -173,8 +173,8 @@ p a {
 }
 
 p img {
-  max-width: calc(100% - 100px);
-  margin: 2em 50px;
+  max-width: 100%;
+  margin: 2em 0px;
 }
 
 .header h1.title{
@@ -225,6 +225,8 @@ p img {
 
 .main-container.no-max-width {
   max-width: none;
+  background-image: url('/img/rule.png');
+  background-repeat: repeat;
 }
 
 #main {
@@ -319,7 +321,8 @@ p img {
   max-width: 100%;
   text-align: center;
   vertical-align: top;
-  margin: 20px auto;
+  margin: 0px auto;
+  padding: 20px 0;
 }
 
 .filter-projects{
@@ -335,6 +338,8 @@ p img {
   padding: 10px;
   vertical-align: top;
   width: 360px;
+  background-image: url('/img/rule.png');
+  background-repeat: repeat;
 }
 
 
@@ -375,8 +380,8 @@ p img {
   max-width: 68em;
   vertical-align: middle;
   width: 100%;
-  border-top: 2px solid #e8e6e8;
-  background-color: #fff;
+  /* border-top: 2px solid #e8e6e8; */
+  /* background-color: #fff; */
   padding: 50px;
   box-sizing: border-box;
 }
@@ -437,7 +442,7 @@ p img {
 }
 
 .main-image img {
-  max-width: 100%;
+  max-width: 720px;
   max-height: 500px;
 }
 
@@ -499,7 +504,7 @@ section#footer {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
-  margin: 2em 0;
+  padding: 2em 0;
   text-align: center;
   letter-spacing: 0.025em;
 }
