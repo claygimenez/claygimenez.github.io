@@ -311,6 +311,11 @@ p img {
   width: 10em;
 }
 
+.trigger:hover {
+  -webkit-background-image: linear-gradient(160deg, #f3f3f3, #e6e6e6);
+  background-image: linear-gradient(160deg, #f3f3f3, #e6e6e6);
+}
+
 #featured-projects {
   margin: 0 auto 0 auto;
   width: 1132px;
