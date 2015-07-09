@@ -227,6 +227,7 @@ p img {
   max-width: none;
   background-image: url('/img/rule.png');
   background-repeat: repeat;
+  width: auto;
 }
 
 #main {
