@@ -31,6 +31,8 @@ Considering these, I decided to build the site using [Jekyll](http://jekyllrb.co
 
 The client wanted the site to look modern, clean, and representative of the team.  I kept the color palette simple.
 
+![Colors](/img/bitlancer-colors.png)
+
 The company already had a great brand blue that was light, bright, and cheery.  I brought in white and a blue-tinged charcoal gray as neutrals and made some supportive colors by lightening the charcoal and darkening the brand color.
 
 ### Character
