@@ -13,15 +13,18 @@ color: '#2695ff'
 
 ### Product Requirements
 
-- **Time**  
+**Time**
+
 We needed to get the site live as quickly as possible. The old site was not helping the company grow.  It had to go.
 
-- **Simplicity**  
-  - The new site needed to look nice and clean and easy to use.
-  - The codebase would be used by a large part of the company. As such, the site needed to be easy to set up and use. No mysterious code or black boxes.
-  - The client wanted a clean slate that the company could iterate on, gathering data and feedback to refine the product.
+**Simplicity**
 
-- **Science!**  
+- The new site needed to look nice and clean and easy to use.
+- The codebase would be used by a large part of the company. As such, the site needed to be easy to set up and use. No mysterious code or black boxes.
+- The client wanted a clean slate that the company could iterate on, gathering data and feedback to refine the product.
+
+**Science!**
+
 Gotta play nicely with HubSpot tracking and Google Analytics.  More on that below!
 
 Considering these, I decided to build the site using [Jekyll](http://jekyllrb.com/), a small but mighty blog-aware static site generator.  It's quick to set up and easy to understand. And! features like [collections](http://jekyllrb.com/docs/collections/) and [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from), along with [GitHub Pages](http://jekyllrb.com/docs/github-pages/) compatibility make it difficult to pass up.

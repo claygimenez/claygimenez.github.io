@@ -58,6 +58,7 @@ body {
 }
 
 ul {
+  -webkit-padding-start: 20px;
   list-style-type: none;
   font-size: 1em;
   margin-top: 20px;
@@ -77,9 +78,9 @@ ul li:before {
   width: 6px;
   height: 6px;
   position: absolute;
-  margin-left: -23px;
-  margin-top: 12px;
-  background-color: #e6e6e6;
+  margin-left: -20px;
+  margin-top: 13px;
+  background-color: #28142d;
 }
 
 ul.nav {
