@@ -29,6 +29,14 @@ Gotta play nicely with HubSpot tracking and Google Analytics.  More on that belo
 
 Considering these, I decided to build the site using [Jekyll](http://jekyllrb.com/), a small but mighty blog-aware static site generator.  It's quick to set up and easy to understand. And! features like [collections](http://jekyllrb.com/docs/collections/) and [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from), along with [GitHub Pages](http://jekyllrb.com/docs/github-pages/) compatibility make it difficult to pass up.
 
+### Layouts
+
+![Mobile wireframes](/img/bitlancer-wireframes.png)
+
+I prioritized simplicity in designing the new Bitlancer layouts.  Confining the
+content to a single column immediately made the site mobile-friendly and
+minimized the time needed to make the site fully responsive across a range of
+devices.
 
 ### Graphic Design
 
