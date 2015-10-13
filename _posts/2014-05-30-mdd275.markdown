@@ -1,7 +1,7 @@
 ---
 layout: portfolio_entry_small
 title:  "Medical Device Design: Evaluating Eustachian Tube Function"
-description:  "I developed a device to non-invasively measure and evaluate eustachian tube function as part of a small team in MIT's 2.75: Medical Device Design.  Working with a clinician from Boston Children's Hospital, we established a general form factor, validated a particular measurement technique, and began to address sources of noise.  "
+description:  "Developed a device to non-invasively measure and evaluate eustachian tube function"
 image: "/img/mdd.png"
 datedone:  "Fall 2013"
 categories: prototyping

@@ -1,7 +1,7 @@
 ---
 layout: portfolio_entry_small
 title:  "SCOPE"
-description:  "I led a team in a variety of simultaneous projects for the Olin College SCOPE team.  Mentored by Professor Andrew Bennett, I served as project manager for the team.  One project involved the redesign of the tail section of an autonomous underwater vehicle.  Part count was reduced by a factor of four, manufacturing costs were substantially reduced, and engine architecture was modified for greater depth potential.  "
+description:  "Led a team in the redesign of the tail section of a commercial autonomous underwater vehicle, reducting part count by 4x"
 image: "/img/sub.png"
 datedone:  "2011"
 categories: prototyping

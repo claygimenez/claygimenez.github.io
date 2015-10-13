@@ -1,7 +1,7 @@
 ---
 layout: portfolio_entry_small
 title:  "Capstan-based Force Amplifier"
-description:  "I investigated the use of capstans as dynamic force amplifiers with a small team.  In a paper published at ASME IDETC/CIE 2012, we demonstrated a system utilizing an elastic cable constrained by an outer housing.  For a properly tuned system, the amplified output force followed a given input pattern accurately.  The system shows promise in certain applications where weight distribution is key.  "
+description:  "Investigated use of capstans as dynamic force amplifiers and demonstrated a system utilizing an elastic cable constrained by an outer housing"
 image: "/img/capstan.jpg"
 datedone:  "2011 - 2012"
 categories: prototyping

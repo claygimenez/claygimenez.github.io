@@ -1,17 +1,17 @@
 ---
 layout: portfolio_entry_small
 title:  "Computer-Assisted Design Reflection"
-description:  "I developed a computer-assisted design reflection engine for my S.M. Thesis at MIT, mentored by Professor David Wallace.  My motivation was to facilitate and improve design reflection and design processes in startups.  Developed as a web application in Ruby on Rails and Backbone.js, the engine applies natural language processing and machine learning techniques to extract useful, actionable information from raw design data."
+description:  "Developed a computer-assisted design reflection engine to improve design reflection and design processes in startups"
 image: "/img/thesis.png"
 datedone:  "2012 - 2014"
 categories: prototyping
 color: '#3E89BD'
 ---
 
-I developed a prototype computer-assisted design reflection (CADR) engine for my S.M. Thesis at MIT, mentored by Professor David Wallace of CADLAB.  My motivation was to facilitate and improve design reflection and design process in startup environments.  
+I developed a prototype computer-assisted design reflection (CADR) engine for my S.M. Thesis at MIT, mentored by Professor David Wallace of CADLAB.  My motivation was to facilitate and improve design reflection and design process in startup environments.
 
 An initial study of my users -- startups -- in the Boston area revealed that most do not have a defined design process nor do they conduct frequent and effective design reflection.  Improved design reflection has the potential to improve design results in startups.  I chose to build a tool to solve certain identified problems in and facilitate and prompt reflection throughout the design process at startups.  The end result was a successful prototype engine.  A substantial body of design data is needed for testing and tuning the system for the particular application.  
 
-The engine was developed as a web application in Ruby on Rails and Backbone.js.  Natural language processing was utilized to scrub initial free form text inputs into an analyzable form.  Machine learning techniques, specifically in information retrieval, were then used to extract useful, actionable information from the raw data.   
+The engine was developed as a web application in Ruby on Rails and Backbone.js.  Natural language processing was utilized to scrub initial free form text inputs into an analyzable form.  Machine learning techniques, specifically in information retrieval, were then used to extract useful, actionable information from the raw data.
 
 [Get the thesis here.](/files/Gimenez_Thesis_Final.pdf)
