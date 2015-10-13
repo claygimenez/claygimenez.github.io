@@ -96,11 +96,11 @@ ul.nav li {
 }
 
 ul.nav li:hover {
-  color: #8d4aa0;
+  color: #2b87d2;
 }
 
 ul.nav li.active {
-  background-color: #8d4aa0;
+  background-color: #2b87d2;
   color: #ffffff;
   border-radius: 2px;
 }
@@ -299,7 +299,6 @@ p img {
   position: relative;
   background-color: rgba(161,207,233,0.8);
   border: 1px solid #f4c97b;
-  height: 200px;
   width: 280px;
 }
 
@@ -311,8 +310,8 @@ p img {
 
 .landing-message-2 {
   font-size: 1.5em;
-  letter-spacing: 0.025em;
-  line-height: 1em;
+  line-height: 1.3em;
+  margin-bottom: 9px;
 }
 
 .trigger-container {

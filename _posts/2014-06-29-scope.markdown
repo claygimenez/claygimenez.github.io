@@ -1,0 +1,29 @@
+---
+layout: portfolio_entry_small
+title:  "SCOPE"
+description:  "I led a team in a variety of simultaneous projects for the Olin College SCOPE team.  Mentored by Professor Andrew Bennett, I served as project manager for the team.  One project involved the redesign of the tail section of an autonomous underwater vehicle.  Part count was reduced by a factor of four, manufacturing costs were substantially reduced, and engine architecture was modified for greater depth potential.  "
+image: "/img/sub.png"
+datedone:  "2011"
+categories: prototyping
+color: '#F84D50'
+---
+
+For the Olin College SCOPE program, I led a team in a variety of projects.  I served as project manager and budget officer under the mentorship of Professor Andrew Bennett, formerly of iRobot's Packbot project.  The projects included:
+
+
+1.  Design and development of perching landing gear for micro aerial vehicles.  For the first half of our yearlong SCOPE experience, the team characterized engineering requirements for the landing gear and designed and constructed several initial prototypes.  
+
+
+2.  Data collection with small aerial vehicles for high speed optical flow.  The team established infrastructure, equipment, and techniques for the required high velocity and high accuracy data capture.  
+
+
+3.  Design and development of a catch and release system for sustained deployment of small aerial vehicles in remote locations.  The team established requirements and basic functionality, began work on some elements, and spurred further work in a research setting.  
+
+
+4.  Redesign of the tail section of an autonomous underwater vehicle (AUV) for improved manufacturability, reduced cost, and increased depth range for a leading commercial producer of AUVs.  Part count was reduced by a factor of four, manufacturing costs were substantially reduced, and engine architecture was modified for greater depth potential.  The resulting designs prompted further work by the sponsor.  
+
+![A plane!](/images/bixler.jpg)
+
+My primary challenges were in project management.  I was managing a diverse team on diverse projects.  The project variety in particular was not characteristic of the SCOPE program, which usually focuses on a single project.  The team members each had differing levels of interest in each project, but also had skills needed for each project.  
+
+I had to quickly develop competency in management of both projects and people.  For projects, focus on critical paths and working with team members to develop useful estimates of task time requirements was key.  For people, I developed communication skills to manage expectations of the various sponsors and team members.  Over the course of the project, I applied techniques such as Kanban, scrum-like meetings, and other agile processes as applicable to keep the team moving forward on all fronts to an eventual successful conclusion.  

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>SCOPE</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/jquery-1.11.1.min.js"></script>
+        <script src="/js/portfolio.js"></script>
+        <link rel="icon" type="image/png" href="/img/icon.png">
+    </head>
+    <body>
+      <div class="main-container no-max-width">
+        <div class="header">
+          <h1 class="title"><a href="/">Clay Gimenez</a></h1>
+        </div>
+
+        <div id="main" class="nofilter">
+          <div class="container project">
+  <h2 class="project">SCOPE</h2>
+  <div class="meta">29 Jun 2014</div>
+
+  <div class="main-image">
+    <img src=/img/sub.png>
+  </div>
+
+  <div class="post">
+  <p>For the Olin College SCOPE program, I led a team in a variety of projects.  I served as project manager and budget officer under the mentorship of Professor Andrew Bennett, formerly of iRobot’s Packbot project.  The projects included:</p>
+
+<ol>
+  <li>
+    <p>Design and development of perching landing gear for micro aerial vehicles.  For the first half of our yearlong SCOPE experience, the team characterized engineering requirements for the landing gear and designed and constructed several initial prototypes.</p>
+  </li>
+  <li>
+    <p>Data collection with small aerial vehicles for high speed optical flow.  The team established infrastructure, equipment, and techniques for the required high velocity and high accuracy data capture.</p>
+  </li>
+  <li>
+    <p>Design and development of a catch and release system for sustained deployment of small aerial vehicles in remote locations.  The team established requirements and basic functionality, began work on some elements, and spurred further work in a research setting.</p>
+  </li>
+  <li>
+    <p>Redesign of the tail section of an autonomous underwater vehicle (AUV) for improved manufacturability, reduced cost, and increased depth range for a leading commercial producer of AUVs.  Part count was reduced by a factor of four, manufacturing costs were substantially reduced, and engine architecture was modified for greater depth potential.  The resulting designs prompted further work by the sponsor.</p>
+  </li>
+</ol>
+
+<p><img src="/images/bixler.jpg" alt="A plane!" /></p>
+
+<p>My primary challenges were in project management.  I was managing a diverse team on diverse projects.  The project variety in particular was not characteristic of the SCOPE program, which usually focuses on a single project.  The team members each had differing levels of interest in each project, but also had skills needed for each project.</p>
+
+<p>I had to quickly develop competency in management of both projects and people.  For projects, focus on critical paths and working with team members to develop useful estimates of task time requirements was key.  For people, I developed communication skills to manage expectations of the various sponsors and team members.  Over the course of the project, I applied techniques such as Kanban, scrum-like meetings, and other agile processes as applicable to keep the team moving forward on all fronts to an eventual successful conclusion.</p>
+
+  </div>
+</div>
+
+        </div>
+
+        <section id="footer">
+        Copyright 2015 Clay Gimenez
+        </section>
+      </div>
+
+
+      <script>
+        $('document').ready(function() {
+
+
+          $('#featured-projects').children().filter(function() {
+            return $(this).data('category') === 'web-development';
+          }).show();
+
+
+          $('ul.nav li').on('click', function(e) {
+            $elem = $(e.target);
+            category = e.target.dataset.category;
+
+            // change classes on li's
+            $('ul.nav li').removeClass('active');
+            $elem.addClass('active');
+
+            // show projects matching filter
+            $('#featured-projects').children().filter(function() {
+              return $(this).data('category') === category;
+            }).show();
+
+            // and hide projects not matching filter
+            $('#featured-projects').children().filter(function() {
+              return $(this).data('category') != category;
+            }).hide();
+
+
+          });
+
+
+        });
+      </script>
+
+    </body>
+</html>

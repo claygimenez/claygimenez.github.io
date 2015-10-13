@@ -1,0 +1,19 @@
+---
+layout: portfolio_entry_small
+title:  "Capstan-based Force Amplifier"
+description:  "I investigated the use of capstans as dynamic force amplifiers with a small team.  In a paper published at ASME IDETC/CIE 2012, we demonstrated a system utilizing an elastic cable constrained by an outer housing.  For a properly tuned system, the amplified output force followed a given input pattern accurately.  The system shows promise in certain applications where weight distribution is key.  "
+image: "/img/capstan.jpg"
+datedone:  "2011 - 2012"
+categories: prototyping
+color: '#131310'
+---
+
+I investigated the use of capstans (a cable-wrapped cylinder) as dynamic force amplifiers with a small team, mentored by Professors Aaron Hoover and Zhenya Zastavker of Olin College.  The project began with the goal of devising a distributed power system for robotic applications, specifically bipedal locomotion.  
+
+In a paper published at ASME IDETC/CIE 2012, we demonstrated that the amplified output force of the device followed the input force pattern accurately.  Thus, a small, accurate input device could control a far larger and self-regulating output force from a large, constantly running, efficient source, such as a small gas engine.  The input force corresponds to input draw distance, simplifying force control to provide repeated changes easily.  The system also allows the distribution of weight more easily than traditional methods.  Specifically, the weight of the main driving engine can be distanced from the driven point.  
+
+The primary challenge facing the team was in mechanical design.  Capstans are typically static force amplifiers, using static friction to amplify input force based on wrap angle.  To use them in a dynamic setting, the system must be made to use the less powerful dynamic friction and must not be allowed to bind, where static friction would take over and rip the system apart.  
+
+By using an elastic cable, constrained by an outer housing, the resting state of the system is unengaged.  When the input is triggered, it tensions the cable, pulling a portion of it into contact with the capstan, amplifying the output force by drawing power from the constantly spinning drum.  
+
+[Get the paper here.](/files/Capstan_IDETC.pdf)

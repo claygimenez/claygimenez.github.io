@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Capstan-based Force Amplifier</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/jquery-1.11.1.min.js"></script>
+        <script src="/js/portfolio.js"></script>
+        <link rel="icon" type="image/png" href="/img/icon.png">
+    </head>
+    <body>
+      <div class="main-container no-max-width">
+        <div class="header">
+          <h1 class="title"><a href="/">Clay Gimenez</a></h1>
+        </div>
+
+        <div id="main" class="nofilter">
+          <div class="container project">
+  <h2 class="project">Capstan-based Force Amplifier</h2>
+  <div class="meta">26 Jun 2014</div>
+
+  <div class="main-image">
+    <img src=/img/capstan.jpg>
+  </div>
+
+  <div class="post">
+  <p>I investigated the use of capstans (a cable-wrapped cylinder) as dynamic force amplifiers with a small team, mentored by Professors Aaron Hoover and Zhenya Zastavker of Olin College.  The project began with the goal of devising a distributed power system for robotic applications, specifically bipedal locomotion.</p>
+
+<p>In a paper published at ASME IDETC/CIE 2012, we demonstrated that the amplified output force of the device followed the input force pattern accurately.  Thus, a small, accurate input device could control a far larger and self-regulating output force from a large, constantly running, efficient source, such as a small gas engine.  The input force corresponds to input draw distance, simplifying force control to provide repeated changes easily.  The system also allows the distribution of weight more easily than traditional methods.  Specifically, the weight of the main driving engine can be distanced from the driven point.</p>
+
+<p>The primary challenge facing the team was in mechanical design.  Capstans are typically static force amplifiers, using static friction to amplify input force based on wrap angle.  To use them in a dynamic setting, the system must be made to use the less powerful dynamic friction and must not be allowed to bind, where static friction would take over and rip the system apart.</p>
+
+<p>By using an elastic cable, constrained by an outer housing, the resting state of the system is unengaged.  When the input is triggered, it tensions the cable, pulling a portion of it into contact with the capstan, amplifying the output force by drawing power from the constantly spinning drum.</p>
+
+<p><a href="/files/Capstan_IDETC.pdf">Get the paper here.</a></p>
+
+  </div>
+</div>
+
+        </div>
+
+        <section id="footer">
+        Copyright 2015 Clay Gimenez
+        </section>
+      </div>
+
+
+      <script>
+        $('document').ready(function() {
+
+
+          $('#featured-projects').children().filter(function() {
+            return $(this).data('category') === 'web-development';
+          }).show();
+
+
+          $('ul.nav li').on('click', function(e) {
+            $elem = $(e.target);
+            category = e.target.dataset.category;
+
+            // change classes on li's
+            $('ul.nav li').removeClass('active');
+            $elem.addClass('active');
+
+            // show projects matching filter
+            $('#featured-projects').children().filter(function() {
+              return $(this).data('category') === category;
+            }).show();
+
+            // and hide projects not matching filter
+            $('#featured-projects').children().filter(function() {
+              return $(this).data('category') != category;
+            }).hide();
+
+
+          });
+
+
+        });
+      </script>
+
+    </body>
+</html>

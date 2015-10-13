@@ -1,0 +1,17 @@
+---
+layout: portfolio_entry_small
+title:  "Leonardo the Lobster"
+description:  "I designed, modeled, and manufactured an animatronic lobster as part of a small team in Olin College's Introduction to Mechanical Prototyping, taught by Professor David Barrett.  In only three weeks and one manufacturing cycle, we created a complete, functional, and rather handsome lobster named Leonardo."
+image: "/img/leo.jpg"
+datedone:  "Spring 2010"
+categories: prototyping
+color: '#528D61'
+---
+
+I designed, modeled, and manufactured an animatronic lobster.  I worked as part of a small team in the class Introduction to Mechanical Prototyping, taught by Professor David Barrett at Olin College.  
+
+The lobster was an exercise in rapid prototyping and project and time management.  The timeline, including printing time and an unexpected printer downtime, spanned only three weeks.  The primary tasks were in mechanical design and 3D CAD modeling.  
+
+Manufacturing and assembly concerns were paramount.  With only one full manufacturing cycle avaiable, certain  elements had to be correct the first time.  Joint clearances, hinges, and minimum thicknesses were tested empirically with one quick test print in the first few days of the project.  
+
+The biomimetic tail was my primary design focus.  Lobsters swim backwards by rapidly flicking their tail downward.  To mimic the motion while allowing proper manufacturing clearance, the tail elements connect with modified cylindrical joints.  Various elastic elements about the flexural axis hold the joints together and give the tail a curled resting state.  A servo motor driving a simple cam cranks the tail to a straight position via a central cable running the length of the tail.  The drive cam's shape then releases tension, causing the tail to flick back to its resting state.  For added character, green LED underlighting is incorporated into each section of the tail.  Oh, and the eyes…the lobster may be secretly evil...  

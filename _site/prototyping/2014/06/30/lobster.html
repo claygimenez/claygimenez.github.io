@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Leonardo the Lobster</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/jquery-1.11.1.min.js"></script>
+        <script src="/js/portfolio.js"></script>
+        <link rel="icon" type="image/png" href="/img/icon.png">
+    </head>
+    <body>
+      <div class="main-container no-max-width">
+        <div class="header">
+          <h1 class="title"><a href="/">Clay Gimenez</a></h1>
+        </div>
+
+        <div id="main" class="nofilter">
+          <div class="container project">
+  <h2 class="project">Leonardo the Lobster</h2>
+  <div class="meta">30 Jun 2014</div>
+
+  <div class="main-image">
+    <img src=/img/leo.jpg>
+  </div>
+
+  <div class="post">
+  <p>I designed, modeled, and manufactured an animatronic lobster.  I worked as part of a small team in the class Introduction to Mechanical Prototyping, taught by Professor David Barrett at Olin College.</p>
+
+<p>The lobster was an exercise in rapid prototyping and project and time management.  The timeline, including printing time and an unexpected printer downtime, spanned only three weeks.  The primary tasks were in mechanical design and 3D CAD modeling.</p>
+
+<p>Manufacturing and assembly concerns were paramount.  With only one full manufacturing cycle avaiable, certain  elements had to be correct the first time.  Joint clearances, hinges, and minimum thicknesses were tested empirically with one quick test print in the first few days of the project.</p>
+
+<p>The biomimetic tail was my primary design focus.  Lobsters swim backwards by rapidly flicking their tail downward.  To mimic the motion while allowing proper manufacturing clearance, the tail elements connect with modified cylindrical joints.  Various elastic elements about the flexural axis hold the joints together and give the tail a curled resting state.  A servo motor driving a simple cam cranks the tail to a straight position via a central cable running the length of the tail.  The drive cam’s shape then releases tension, causing the tail to flick back to its resting state.  For added character, green LED underlighting is incorporated into each section of the tail.  Oh, and the eyes…the lobster may be secretly evil…</p>
+
+  </div>
+</div>
+
+        </div>
+
+        <section id="footer">
+        Copyright 2015 Clay Gimenez
+        </section>
+      </div>
+
+
+      <script>
+        $('document').ready(function() {
+
+
+          $('#featured-projects').children().filter(function() {
+            return $(this).data('category') === 'web-development';
+          }).show();
+
+
+          $('ul.nav li').on('click', function(e) {
+            $elem = $(e.target);
+            category = e.target.dataset.category;
+
+            // change classes on li's
+            $('ul.nav li').removeClass('active');
+            $elem.addClass('active');
+
+            // show projects matching filter
+            $('#featured-projects').children().filter(function() {
+              return $(this).data('category') === category;
+            }).show();
+
+            // and hide projects not matching filter
+            $('#featured-projects').children().filter(function() {
+              return $(this).data('category') != category;
+            }).hide();
+
+
+          });
+
+
+        });
+      </script>
+
+    </body>
+</html>
