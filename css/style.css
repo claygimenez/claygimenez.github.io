@@ -275,6 +275,10 @@ p img {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  background-image: -webkit-linear-gradient(150deg, #59b6dd, #2b87d2);
+  background-image: -o-linear-gradient(150deg, #59b6dd, #2b87d2);
+  background-image: -moz-linear-gradient(150deg, #59b6dd, #2b87d2);
+  background-image: linear-gradient(150deg, #59b6dd, #2b87d2);
 }
 
 #landing-svg {
@@ -282,16 +286,21 @@ p img {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  width: 100%;
   height: 100%;
 }
 
 #landing-content {
-  border-radius: 10px;
+  border-radius: 4px;
   display: inline-block;
-  padding: 20px;
+  color: #2b87d2;
+  padding: 20px 50px;
   text-align: center;
   position: relative;
+  background-color: rgba(161,207,233,0.8);
+  border: 1px solid #f4c97b;
+  height: 200px;
+  width: 280px;
 }
 
 .landing-message-1 {

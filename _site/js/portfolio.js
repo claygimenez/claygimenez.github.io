@@ -13,7 +13,10 @@ $(document).ready(function() {
     s.append(g);
     s.attr({
       viewBox : "0 0 1024 768",
-      preserveAspectRatio : "xMidYMid slice"
+      preserveAspectRatio : "xMidYMid slice",
+      opacity: "0"
     });
+
+    s.animate({opacity : "1"}, 350);
   });
 });
