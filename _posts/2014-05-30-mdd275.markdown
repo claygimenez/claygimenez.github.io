@@ -5,7 +5,7 @@ description:  "Developed a device to non-invasively measure and evaluate eustach
 image: "/img/mdd.png"
 datedone:  "Fall 2013"
 categories: prototyping
-color: '#A22A42'
+color: '#f4c97b'
 ---
 
 

@@ -5,7 +5,7 @@ description:  "Led a team in the redesign of the tail section of a commercial au
 image: "/img/sub.png"
 datedone:  "2011"
 categories: prototyping
-color: '#F84D50'
+color: '#f4c97b'
 ---
 
 For the Olin College SCOPE program, I led a team in a variety of projects.  I served as project manager and budget officer under the mentorship of Professor Andrew Bennett, formerly of iRobot's Packbot project.  The projects included:
