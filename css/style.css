@@ -294,7 +294,7 @@ p img {
   border-radius: 4px;
   display: inline-block;
   color: #2b87d2;
-  padding: 20px 50px;
+  padding: 25px 50px;
   text-align: center;
   position: relative;
   background-color: rgba(161,207,233,0.8);
@@ -305,13 +305,14 @@ p img {
 .landing-message-1 {
   font-size: 2.5em;
   letter-spacing: 0.05em;
-  line-height: 2em;
+  line-height: 1em;
+  margin-bottom: 0.35em;
 }
 
 .landing-message-2 {
   font-size: 1.5em;
   line-height: 1.3em;
-  margin-bottom: 9px;
+  margin-bottom: 1em;
 }
 
 .trigger-container {

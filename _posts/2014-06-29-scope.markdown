@@ -28,3 +28,5 @@ For the Olin College SCOPE program, I led a team in a variety of projects.  I se
 My primary challenges were in project management.  I was managing a diverse team on diverse projects.  The project variety in particular was not characteristic of the SCOPE program, which usually focuses on a single project.  The team members each had differing levels of interest in each project, but also had skills needed for each project.  
 
 I had to quickly develop competency in management of both projects and people.  For projects, focus on critical paths and working with team members to develop useful estimates of task time requirements was key.  For people, I developed communication skills to manage expectations of the various sponsors and team members.  Over the course of the project, I applied techniques such as Kanban, scrum-like meetings, and other agile processes as applicable to keep the team moving forward on all fronts to an eventual successful conclusion.  
+
+![More submarine!](/img/auv.png)
