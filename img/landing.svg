@@ -11,7 +11,7 @@
                 		type="rotate"
                 		from="0 300 300"
                 		to="360 300 300"
-                		dur="10s"
+                		dur="15s"
                 		repeatCount="indefinite"
                 	/>
                 </g>
@@ -36,8 +36,8 @@
             			attributeType="XML"
             			type="rotate"
             			from="0 137.5 137.5"
-            			to="360 137.5 137.5"
-            			dur="4s"
+            			to="-360 137.5 137.5"
+            			dur="12s"
             			repeatCount="indefinite"
             		/>
             	</g>
@@ -90,7 +90,7 @@
             			attributeType="XML"
             			type="rotate"
             			from="0 34.5 34.5"
-            			to="360 34.5 34.5"
+            			to="-360 34.5 34.5"
             			dur="3s"
             			repeatCount="indefinite"
             		/>

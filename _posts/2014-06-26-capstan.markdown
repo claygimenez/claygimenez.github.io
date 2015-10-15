@@ -4,8 +4,9 @@ title:  "Capstan-based Force Amplifier"
 description:  "Investigated use of capstans as dynamic force amplifiers and demonstrated a system utilizing an elastic cable constrained by an outer housing"
 image: "/img/capstan.jpg"
 datedone:  "2011 - 2012"
-categories: prototyping
+categories: physical
 color: '#f4c97b'
+permalink: /:title.html
 ---
 
 I investigated the use of capstans (a cable-wrapped cylinder) as dynamic force amplifiers with a small team, mentored by Professors Aaron Hoover and Zhenya Zastavker of Olin College.  The project began with the goal of devising a distributed power system for robotic applications, specifically bipedal locomotion.  

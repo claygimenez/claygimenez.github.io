@@ -4,8 +4,9 @@ title:  "Computer-Assisted Design Reflection"
 description:  "Developed a computer-assisted design reflection engine to improve design reflection and design processes in startups"
 image: "/img/thesis.png"
 datedone:  "2012 - 2014"
-categories: prototyping
+categories: design, web, machine-learning
 color: '#f4c97b'
+permalink: /:title.html
 ---
 
 I developed a prototype computer-assisted design reflection (CADR) engine for my S.M. Thesis at MIT, mentored by Professor David Wallace of CADLAB.  My motivation was to facilitate and improve design reflection and design process in startup environments.

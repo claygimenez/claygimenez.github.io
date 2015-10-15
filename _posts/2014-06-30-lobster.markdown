@@ -4,8 +4,9 @@ title:  "Leonardo the Lobster"
 description:  "Designed, modeled, and manufactured an animatronic lobster in three weeks and one manufacturing cycle"
 image: "/img/leo.jpg"
 datedone:  "Spring 2010"
-categories: prototyping
+categories: physical, design
 color: '#f4c97b'
+permalink: /:title.html
 ---
 
 I designed, modeled, and manufactured an animatronic lobster.  I worked as part of a small team in the class Introduction to Mechanical Prototyping, taught by Professor David Barrett at Olin College.  

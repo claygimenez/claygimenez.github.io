@@ -3,9 +3,10 @@ layout: portfolio_entry_small
 title:  "Medical Device Design: Evaluating Eustachian Tube Function"
 description:  "Developed a device to non-invasively measure and evaluate eustachian tube function"
 image: "/img/mdd.png"
-datedone:  "Fall 2013"
-categories: prototyping
+datedone:  "Fall 2013 - Present"
+categories: design, physical, pm
 color: '#f4c97b'
+permalink: /:title.html
 ---
 
 
