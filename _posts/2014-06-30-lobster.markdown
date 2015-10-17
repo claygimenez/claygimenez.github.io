@@ -9,10 +9,12 @@ color: '#f4c97b'
 permalink: /:title.html
 ---
 
-I designed, modeled, and manufactured an animatronic lobster.  I worked as part of a small team in the class Introduction to Mechanical Prototyping, taught by Professor David Barrett at Olin College.  
+I designed, modeled and manufactured an animatronic lobster with a small team as an exercise in rapid prototyping and project planning.  We created Leonardo in one manufacturing cycle spanning three weeks.
 
-The lobster was an exercise in rapid prototyping and project and time management.  The timeline, including printing time and an unexpected printer downtime, spanned only three weeks.  The primary tasks were in mechanical design and 3D CAD modeling.  
+With only enough time for one full cycle, we had to lock down and test key mechanical design elements fast.  We tested joint clearances, hinges, minimum thicknesses, and the like with one quick test print in the first few days.
 
-Manufacturing and assembly concerns were paramount.  With only one full manufacturing cycle avaiable, certain  elements had to be correct the first time.  Joint clearances, hinges, and minimum thicknesses were tested empirically with one quick test print in the first few days of the project.  
+For the next week, we dove into aesthetic and mechanical design.  I focused on the biomimetic tail.  Turns out, lobsters swim backwards.  They rapidly flick their tails downward and fly through the water.
 
-The biomimetic tail was my primary design focus.  Lobsters swim backwards by rapidly flicking their tail downward.  To mimic the motion while allowing proper manufacturing clearance, the tail elements connect with modified cylindrical joints.  Various elastic elements about the flexural axis hold the joints together and give the tail a curled resting state.  A servo motor driving a simple cam cranks the tail to a straight position via a central cable running the length of the tail.  The drive cam's shape then releases tension, causing the tail to flick back to its resting state.  For added character, green LED underlighting is incorporated into each section of the tail.  Oh, and the eyes…the lobster may be secretly evil...  
+To mimic the motion while allowing proper manufacturing clearance, I connected the tail elements with modified cylindrical joints.  Various elastic elements about the flexural axis hold the joints together and give the tail a curled resting state.  A servo motor driving a simple cam cranks the tail to a straight position via a central cable running the length of the tail.  The drive cam's shape then releases tension, causing the tail to flick back to its resting state.
+
+For bonus character, I added green LED underlighting in the tail.  Plus LED eyes and a hint of iridescent green in the paint job... the lobster may be secretly evil (or at least blighted).

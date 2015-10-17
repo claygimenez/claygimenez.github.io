@@ -9,13 +9,20 @@ color: '#f4c97b'
 permalink: /:title.html
 ---
 
+## THE PROBLEM
 
-For 2.75: Medical Device Design, a graduate engineering course at MIT instructed by Professors Alex Slocum and Charlie Sodini, I worked with a small team to to develop a device to measure and evaluate eustachian tube functionality in collaboration with a clinician from Boston Children's Hospital.  
+As you've probably heard, antibiotic overprescription is a big problem.  It's even more significant in children, with repeated antibiotic cycles in the early years being linked to a variety of developmental and long-term health issues.  Otitis media, or middle ear infection, is the most common acute medical condition in children with over 16 million annual episodes in the US alone and accounts for a large portion of antibiotic prescriptions.
 
-The end result was a proof of concept of the measurement technique, its capabilities, and an approximate form factor and usage scenario for the device.  The design is currently patent pending and further development is ongoing.  
+Eustachian tube dysfunction is the leading cause of otitis media.  The tissues of the middle ear (just behind the eardrum) act as a pump, absorbing gases and resulting in a negative pressure in the middle ear.  The eustachian tube balances this negative pressure with the outside world.  But in children, the long, thin, squishy eustachian tube does not always open effectively.  If the pressure is not balanced, fluids can be pulled from the body into the middle ear, resulting in pain and leaving good conditions for an infection to grow.
 
-Eustacian tube dysfunction is the leading cause of otitis media, or middle ear infections, the most common acute medical condition in children with 16 million annual episodes in the US alone.  Effective evaluation of eustachian tube function would enable preventative care and ensure proper diagnosis, thus substantially reducing antibiotic use in children.  
+If this happens to a kid a lot, tubes can be put in their ears to act as substitute eustachian tubes until they grow.  But by that point, they've typically already had multiple antibiotic cycles.  Even worse, otitis media is often misdiagnosed due to the difficulty of getting useful information about the middle ear noninvasively.  Effective diagnostic evaluation of eustachian tube function would enable preventative care and ensure proper diagnosis, improving child happiness and massively reducing antibiotic prescription.
 
-The primary challenge facing the team was the development of an effective non-invasive measurement technique.  Evaluating eustachian tube functionality requires distinguishing very small differences over long periods of time in the pressure of the middle ear.  Many potential noise sources complicate matters.  The final design validated a particular measurement technique and tentatively addressed potential noise sources for the technique.  
+## THE CHALLENGE
 
-My main contributions were system design, enabling effective communication between the varied stakeholders, the design of the prototype mechanical structure, and collaboration in the design of the control system involved in the measurement.  
+The primary challenge was the development of an effective non-invasive measurement technique.  Evaluating eustachian tube function requires distinguishing very small differences in the pressure of the middle ear over long periods of time.  On top of that, there are plenty of noise sources, such as patient movement and speech.
+
+## THE SOLUTION
+
+I worked with a small team in collaboration with an ENT specialist from Boston Children's Hospital.  We developed a proof-of-concept device to measure the pressure in the middle ear indirectly via the outer ear pressure.  Even as a prototype, the device is highly effective, validating the measurement technique.
+
+As a bonus, the device lends itself to a friendly headphones form factor and can even function as headphones, music and all, during testing.  The device is currently patent pending and further development is ongoing.

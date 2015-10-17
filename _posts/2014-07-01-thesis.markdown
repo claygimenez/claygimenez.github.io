@@ -9,10 +9,18 @@ color: '#f4c97b'
 permalink: /:title.html
 ---
 
-I developed a prototype computer-assisted design reflection (CADR) engine for my S.M. Thesis at MIT, mentored by Professor David Wallace of CADLAB.  My motivation was to facilitate and improve design reflection and design process in startup environments.
+## The Problem
 
-An initial study of my users -- startups -- in the Boston area revealed that most do not have a defined design process nor do they conduct frequent and effective design reflection.  Improved design reflection has the potential to improve design results in startups.  I chose to build a tool to solve certain identified problems in and facilitate and prompt reflection throughout the design process at startups.  The end result was a successful prototype engine.  A substantial body of design data is needed for testing and tuning the system for the particular application.  
+In a startup culture, everyone, and often their pet, is a designer.  Everyone is hands-on with the product, creating value and experience for users.  But some critical aspects of design are easily lost in the focus on execution.
 
-The engine was developed as a web application in Ruby on Rails and Backbone.js.  Natural language processing was utilized to scrub initial free form text inputs into an analyzable form.  Machine learning techniques, specifically in information retrieval, were then used to extract useful, actionable information from the raw data.
+Specifically, an initial study of my users -- startups -- in the Boston area revealed that most do not have a defined design process, nor do they conduct frequent and effective design reflection.  Design reflection is, essentially, thinking about design to get better at design.  Reviewing processes, decisions, and results helps us identify and shore up weaknesses and aggressively leverage our strengths.  By promoting design reflection in startups, we can help them develop a personalized design process and improve their design results, leading to more successful and more impactful products.
 
-[Get the thesis here.](/files/Gimenez_Thesis_Final.pdf)
+## My Solution
+
+I developed a prototype computer-assisted design reflection (CADR) engine.  The full system acts a design notebook, taking in notes and thoughts from startup users, as well as things like user reviews and support emails.  Natural language processing and machine learning techniques can then dig through this data to expose useful, actionable information.  Users can combine these insights with their own understanding and creativity to improve their designs and processes.  In essence, the system provides design and management tools that also subconciously prompt users to reflect.
+
+The end result of my work was a prototype insight engine.  The image above shows the results of the system in analyzing user reviews of a gaming mouse.  Moving forward, a substantial body of design data is needed for testing and tuning the system appropriately.  Further front-end development will flesh out the value proposition to users to facilitate adoption.
+
+The system is a web application built in Ruby on Rails and Backbone.js, with data visualization in D3.js.  The initial work presented here made up my S.M. Thesis at MIT.  Thanks are due to my advisor, David Wallace, and all the awesome people in CADLAB for all their great ideas and support.
+
+[Read full thesis here.](/files/Gimenez_Thesis_Final.pdf)
