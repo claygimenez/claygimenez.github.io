@@ -4,9 +4,8 @@ title:  "Ripples"
 description:  "First Place Winner of the Riot Games API Challenge using machine learning to look at the effects of item patch changes"
 image: "/img/ripples.png"
 datedone:  "August 2015"
-categories: design, web, ml
+categories: design, web, machine-learning
 color: '#f4c97b'
-permalink: /:title.html
 ---
 
 We built Ripples as an entry to the second [Riot Games API Challenge](https://developer.riotgames.com/discussion/announcements/show/2lxEyIcE).  [We won first place](https://developer.riotgames.com/api-challenge/august2015) in our category, Ability Power Item Changes.  Check out Ripples live [here!](http://maryschmidt.github.io/ripples/)

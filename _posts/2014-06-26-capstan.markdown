@@ -6,7 +6,6 @@ image: "/img/capstan.jpg"
 datedone:  "2011 - 2012"
 categories: physical
 color: '#f4c97b'
-permalink: /:title.html
 ---
 
 ## Motivation

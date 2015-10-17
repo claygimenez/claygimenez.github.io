@@ -6,7 +6,6 @@ image: "/img/sub.png"
 datedone:  "2011"
 categories: design, pm, physical
 color: '#f4c97b'
-permalink: /:title.html
 ---
 
 For my senior capstone in the Olin College SCOPE program, I led a team in a variety of projects.  I served as project manager and budget officer.  The projects included:

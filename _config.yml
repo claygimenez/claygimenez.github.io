@@ -1,0 +1,4 @@
+title: "Clay Gimenez"
+url: "http://claygimenez.github.io"
+markdown: kramdown
+permalink: /:title.html

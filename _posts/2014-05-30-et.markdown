@@ -6,7 +6,6 @@ image: "/img/mdd.png"
 datedone:  "Fall 2013 - Present"
 categories: design, physical, pm
 color: '#f4c97b'
-permalink: /:title.html
 ---
 
 ## THE PROBLEM
