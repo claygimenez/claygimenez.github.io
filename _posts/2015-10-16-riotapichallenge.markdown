@@ -4,7 +4,7 @@ title:  "Ripples"
 description:  "First Place Winner of the Riot Games API Challenge using machine learning to look at the effects of item patch changes"
 image: "/img/ripples.png"
 datedone:  "August 2015"
-categories: design, web, machine-learning
+categories: design, web, data
 color: '#f4c97b'
 ---
 

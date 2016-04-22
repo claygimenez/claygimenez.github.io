@@ -1,0 +1,33 @@
+---
+layout: portfolio_entry_small
+title: "Ripples v2.0"
+description: "Used machine learning and data visualization to expose the effects of patch changes on League of Legends ranked play"
+image: "/img/ripplesv2.png"
+datedone: "Spring 2016"
+categories: design, web, data
+color: '#f4c97b'
+---
+
+[Ripples v2.0](https://claygimenez.github.io/ripples) is an extension of [Ripples](/riotapichallenge.html), our winning entry in the second [Riot Games API Challenge](https://developer.riotgames.com/api-challenge/august2015) in the Ability Power Item Changes category.  
+
+With Ripples, we looked at how the targeted changes to one class of champion, Mages, rippled out to impact other classes, like Tanks and Supports.  Ripples v2.0 takes that further and shows you how all the patches in the last year shaped the game and its champions.  
+
+We built a Ruby on Rails app to collect and analyze over a million ranked matches of League of Legends.  We developed a threaded HTTP request module to gather data faster and implemented several machine learning algorithms, such as hierarchical agglomerative clustering, to help us reveal the ripples.  
+
+Last, we present the results using D3.js.  Data visualization makes the results understandable and reveals insights into how the game has changed, what the most effective strategies are, and where the game might be going in the future.  
+
+But enough talking - it's time for pictures!  
+
+![Champion Clusters](/img/ripples2_sunburst.png)
+
+We used a sunburst to visualize how champions cluster into groups based on the items they build.  This reveals not only similar champions, but also the relative significance of items and playstyles to the game.  
+
+![Champion Dominance](/img/ripples2_stream.png)
+
+The streamgraph is a really good way to show how the impact of specific champions has waxed and waned over time in various roles.  We show the most dominant champions in a role over the selected patch range.  Depending on the range, you can see a champion's sustained strength or their fifteen minutes of fame.  
+
+![Champion Builds](/img/ripples2_circles.png)
+
+And finally, circle packing shows the hierarchical relationships between different builds of the same champion.  Some items are always built together, but others are less related.  Certain champions even exhibit multiple distinct builds, like Zyra does above (left), though in later patches (right) her build settled down.  
+
+[Ripples v2.0](https://claygimenez.github.io/ripples) is still in active development.  Our next goals are to experiment with automated storytelling, animating out the high points of the patch changes, and to apply neural networks to anticipate where the game is going before it gets there.  We hope you like it!

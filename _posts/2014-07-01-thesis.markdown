@@ -4,7 +4,7 @@ title:  "Computer-Assisted Design Reflection"
 description:  "Developed a computer-assisted design reflection engine to improve design reflection and design processes in startups"
 image: "/img/thesis.png"
 datedone:  "2012 - 2014"
-categories: design, web, machine-learning
+categories: design, web, data
 color: '#f4c97b'
 ---
 

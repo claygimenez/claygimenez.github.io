@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Ripples v2.0</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/jquery-1.11.1.min.js"></script>
+        <script src="/js/portfolio.js"></script>
+        <link rel="icon" type="image/png" href="/img/icon.png">
+    </head>
+    <body>
+      <div class="main-container no-max-width">
+        <div class="header">
+          <h1 class="title"><a href="/">Clay Gimenez</a></h1>
+        </div>
+
+        <div id="main" class="nofilter">
+          <div class="container project">
+  <h2 class="project">Ripples v2.0</h2>
+  <div class="meta">Spring 2016</div>
+
+  <div class="main-image">
+    <img src=/img/ripplesv2.png>
+  </div>
+
+  <div class="post">
+  <p><a href="https://claygimenez.github.io/ripples">Ripples v2.0</a> is an extension of <a href="/riotapichallenge.html">Ripples</a>, our winning entry in the second <a href="https://developer.riotgames.com/api-challenge/august2015">Riot Games API Challenge</a> in the Ability Power Item Changes category.  </p>
+
+<p>With Ripples, we looked at how the targeted changes to one class of champion, Mages, rippled out to impact other classes, like Tanks and Supports.  Ripples v2.0 takes that further and shows you how all the patches in the last year shaped the game and its champions.  </p>
+
+<p>We built a Ruby on Rails app to collect and analyze over a million ranked matches of League of Legends.  We developed a threaded HTTP request module to gather data faster and implemented several machine learning algorithms, such as hierarchical agglomerative clustering, to help us reveal the ripples.  </p>
+
+<p>Last, we present the results using D3.js.  Data visualization makes the results understandable and reveals insights into how the game has changed, what the most effective strategies are, and where the game might be going in the future.  </p>
+
+<p>But enough talking - it’s time for pictures!  </p>
+
+<p><img src="/img/ripples2_sunburst.png" alt="Champion Clusters" /></p>
+
+<p>We used a sunburst to visualize how champions cluster into groups based on the items they build.  This reveals not only similar champions, but also the relative significance of items and playstyles to the game.  </p>
+
+<p><img src="/img/ripples2_stream.png" alt="Champion Dominance" /></p>
+
+<p>The streamgraph is a really good way to show how the impact of specific champions has waxed and waned over time in various roles.  We show the most dominant champions in a role over the selected patch range.  Depending on the range, you can see a champion’s sustained strength or their fifteen minutes of fame.  </p>
+
+<p><img src="/img/ripples2_circles.png" alt="Champion Builds" /></p>
+
+<p>And finally, circle packing shows the hierarchical relationships between different builds of the same champion.  Some items are always built together, but others are less related.  Certain champions even exhibit multiple distinct builds, like Zyra does above (left), though in later patches (right) her build settled down.  </p>
+
+<p><a href="https://claygimenez.github.io/ripples">Ripples v2.0</a> is still in active development.  Our next goals are to experiment with automated storytelling, animating out the high points of the patch changes, and to apply neural networks to anticipate where the game is going before it gets there.  We hope you like it!</p>
+
+  </div>
+</div>
+
+        </div>
+
+        <section id="footer">
+        Copyright 2016 Clay Gimenez
+        </section>
+      </div>
+
+
+      <script>
+        $('document').ready(function() {
+
+
+          $('#featured-projects').children().filter(function() {
+            return $(this).data('category') === 'web-development';
+          }).show();
+
+
+          $('ul.nav li').on('click', function(e) {
+            $elem = $(e.target);
+            category = e.target.dataset.category;
+
+            // change classes on li's
+            $('ul.nav li').removeClass('active');
+            $elem.addClass('active');
+
+            // show projects matching filter
+            $('#featured-projects').children().filter(function() {
+              return $(this).data('category') === category;
+            }).show();
+
+            // and hide projects not matching filter
+            $('#featured-projects').children().filter(function() {
+              return $(this).data('category') != category;
+            }).hide();
+
+
+          });
+
+
+        });
+      </script>
+
+    </body>
+</html>
